@@ -1,0 +1,28 @@
+{
+  "name": "published-resource-producer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lblod/published-resource-producer.git"
+  },
+  "author": "redpencil.io",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lblod/published-resource-producer/issues"
+  },
+  "homepage": "https://github.com/lblod/published-resource-producer#readme",
+  "dependencies": {
+    "@lblod/mu-auth-sudo": "^0.2.0",
+    "body-parser": "^1.19.0",
+    "fs-extra": "^9.0.1",
+    "moment": "^2.29.1"
+  }
+}
