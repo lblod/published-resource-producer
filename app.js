@@ -34,7 +34,7 @@ app.post('/delta', async function(req, res) {
     }
     await file.writeToDisk();
   } else {
-    console.log("Delta did not contain any triples off interest, nothing saved to disk.")
+    console.log("Delta did not contain any triples off interest, nothing saved to disk.");
   }
 
   res.status(202).send();
